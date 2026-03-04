@@ -1,0 +1,53 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version:*)",
+      "Bash(gh:*)",
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(supabase:*)",
+      "Bash(railway:*)",
+      "Bash(docker --version:*)",
+      "Bash(wsl:*)",
+      "Bash(pnpm --version:*)",
+      "Bash(bun:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"/c/Program Files/GitHub CLI:$PATH\")",
+      "Bash(if ! grep -q \"GitHub CLI\" ~/.bashrc)",
+      "Bash(then echo 'export PATH=\"\"/c/Program Files/GitHub CLI:$PATH\"\" # Added by AIOS Bootstrap')",
+      "Bash(~/.bashrc)",
+      "Bash(else echo \"✅ Já existe no ~/.bashrc\")",
+      "Bash(fi)",
+      "Bash(scoop:*)",
+      "Bash(winget search:*)",
+      "Bash(powershell -Command \"irm get.scoop.sh -outfile ''scoop-install.ps1''; .\\\\scoop-install.ps1 -NoProfile -ExecutionPolicy Bypass\")",
+      "Bash(export PATH=\"$HOME/scoop/shims:$PATH\")",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git init:*)",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "Bash(do:*)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \".claude/hooks/synapse-engine.js\""
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\\\Users\\\\Marcos\\\\Desktop\\\\Arquivos\\\\pro-build\\\\.claude\\\\hooks\\\\precompact-session-digest.cjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
