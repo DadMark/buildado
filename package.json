@@ -1,0 +1,16 @@
+{
+  "name": "buildado",
+  "version": "1.0.0",
+  "description": "Synkra AIOS Project - Full Stack Development Framework",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'Development environment'",
+    "test": "echo 'Running tests'",
+    "lint": "echo 'Linting code'",
+    "build": "echo 'Building project'",
+    "typecheck": "echo 'Type checking'"
+  },
+  "keywords": ["aios", "development", "framework"],
+  "author": "Marcos",
+  "license": "MIT"
+}
