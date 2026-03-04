@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Brand Elements Schema",
+  "description": "Schema for brand identity elements",
+  "type": "object",
+  "properties": {
+    "brand": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "tagline": { "type": "string" },
+        "description": { "type": "string" },
+        "values": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "visual_identity": {
+      "type": "object",
+      "properties": {
+        "logo": {
+          "type": "object",
+          "properties": {
+            "primary_logo": { "type": "string" },
+            "variations": { "type": "array" }
+          }
+        },
+        "colors": {
+          "type": "object",
+          "properties": {
+            "primary": { "type": "string" },
+            "secondary": { "type": "array" },
+            "neutrals": { "type": "array" }
+          }
+        },
+        "typography": {
+          "type": "object",
+          "properties": {
+            "primary_font": { "type": "string" },
+            "secondary_font": { "type": "string" }
+          }
+        }
+      }
+    },
+    "messaging": {
+      "type": "object",
+      "properties": {
+        "tone_of_voice": { "type": "string" },
+        "key_messages": { "type": "array" },
+        "taglines": { "type": "array" }
+      }
+    }
+  }
+}

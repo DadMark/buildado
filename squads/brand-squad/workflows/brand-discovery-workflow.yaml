@@ -1,0 +1,25 @@
+workflow:
+  id: brand-discovery-workflow
+  name: Brand Discovery & Strategy
+  description: Phases 1-2 of brand development process
+  
+  phases:
+    - id: phase-1-discovery
+      name: Briefing & Discovery
+      tasks:
+        - collect-brief (Priya)
+        - competitive-analysis (Marcus)
+      duration: 5-8 days
+      
+    - id: phase-2-strategy
+      name: Strategy Development
+      tasks:
+        - brand-strategy (Marcus + Isabella)
+      duration: 5-7 days
+      approval_required: true
+      approver: brand-chief
+  
+  outputs:
+    - Briefing Document
+    - Competitive Analysis Report
+    - Brand Strategy Document

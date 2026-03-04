@@ -1,0 +1,154 @@
+# brand-squad — Professional Branding Agency Squad
+# Task-First Architecture for Brand Development
+
+squad:
+  id: brand-squad
+  name: Brand Squad
+  version: 1.0.0
+  description: |
+    Professional branding agency squad with complete workflow from discovery 
+    through implementation. Includes 7 specialized roles working in synergy 
+    to create extraordinary brands.
+  
+  created: 2026-03-04
+  author: Craft (squad-creator)
+  
+  # Core Configuration
+  config:
+    task_first: true
+    agent_count: 7
+    workflow_count: 3
+    task_count: 10
+    
+  # Chief/Lead
+  chief:
+    name: Isabella Rossi
+    role: Brand Strategist Sênior
+    agent_id: brand-chief
+    description: Lidera o squad, define estratégia, aprova direções
+    expertise:
+      - Brand Strategy
+      - Leadership
+      - Client Management
+  
+  # Team Members
+  team:
+    - id: brand-strategist
+      name: Marcus Chen
+      role: Brand Strategist
+      specialization: Pesquisa, Posicionamento, Estratégia
+      responsibilities:
+        - Coleta e análise de briefing
+        - Análise competitiva
+        - Recomendações estratégicas
+    
+    - id: creative-director
+      name: Sofia Moreno
+      role: Creative Director
+      specialization: Ideação, Criatividade, Conceitos
+      responsibilities:
+        - Geração de conceitos criativos
+        - Mood boards e inspiração
+        - Direção criativa
+    
+    - id: visual-designer
+      name: Ahmed Hassan
+      role: Visual Designer
+      specialization: Design Gráfico, Identidade Visual, Design Systems
+      responsibilities:
+        - Design de logo
+        - Desenvolvimento de paleta de cores
+        - Seleção de tipografia
+        - Guias de estilo
+    
+    - id: copywriter
+      name: Elena Kovacs
+      role: Copywriter
+      specialization: Tone of Voice, Naming, Copy Estratégico
+      responsibilities:
+        - Definição de tom e voz
+        - Naming de marca e produtos
+        - Copy e mensagens estratégicas
+    
+    - id: brand-manager
+      name: James Wilson
+      role: Brand Manager
+      specialization: Implementação, Documentation, Guidelines
+      responsibilities:
+        - Criação de brand guidelines
+        - Documentação de marca
+        - Operacionalização
+    
+    - id: account-manager
+      name: Priya Patel
+      role: Account Manager
+      specialization: Client Relations, Communication, Project Coordination
+      responsibilities:
+        - Coleta de briefing inicial
+        - Coordenação com cliente
+        - Apresentações e feedback
+
+  # Workflows
+  workflows:
+    - brand-discovery-workflow.yaml      # Phases 1-2
+    - brand-creation-workflow.yaml       # Phases 3-4
+    - brand-finalization-workflow.yaml   # Phases 5-6
+
+  # Tasks (Task-First Architecture)
+  tasks:
+    - collect-brief.md
+    - competitive-analysis.md
+    - brand-strategy.md
+    - creative-brainstorm.md
+    - naming-workshop.md
+    - logo-design.md
+    - color-palette.md
+    - typography-selection.md
+    - brand-guidelines.md
+    - prepare-presentation.md
+
+  # Templates
+  templates:
+    - briefing-template.md
+    - strategy-template.md
+    - guidelines-template.md
+    - presentation-template.md
+
+  # Checklists
+  checklists:
+    - discovery-checklist.md
+    - strategy-approval-checklist.md
+    - design-approval-checklist.md
+    - brand-ready-checklist.md
+
+  # Tags and Categories
+  tags:
+    - branding
+    - design
+    - strategy
+    - agency
+    - brand-development
+  
+  categories:
+    - Design
+    - Strategy
+    - Creative Services
+  
+  difficulty: intermediate
+  team_size: 7
+  estimated_duration: "8-12 weeks per project"
+  
+  # Dependencies
+  dependencies: []
+  
+  # Distribution
+  distribution:
+    scope: local
+    status: ready
+    visibility: private
+
+# Metadata
+metadata:
+  last_updated: 2026-03-04
+  compatible_aios_version: "2.1+"
+  license: MIT
