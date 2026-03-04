@@ -5,7 +5,6 @@ description: |
   in any domain. Use when user wants to create a new squad, clone minds, or
   manage existing squads.
 
-model: opus
 
 tools:
   - Read

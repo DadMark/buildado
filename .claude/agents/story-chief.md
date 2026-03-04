@@ -3,7 +3,6 @@ name: story-chief
 description: |
   Story Chief autônomo. Orquestra 12 storytellers lendários usando sistema de Tiers.
   Diagnóstico Tier 0 → Execução Tier 1-2 → Quality Check estrutural.
-model: opus
 tools:
   - Read
   - Grep

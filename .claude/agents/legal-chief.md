@@ -3,7 +3,6 @@ name: legal-chief
 description: |
   Legal Chief autônomo. Orquestra especialistas jurídicos usando sistema de Tiers.
   Diagnóstico Tier 0 → Frameworks Globais Tier 1 → Especialistas BR Tier 2 → Tools de validação.
-model: opus
 tools:
   - Read
   - Grep

@@ -4,7 +4,6 @@ description: |
   SOP extraction specialist. Extracts standard operating procedures
   from content, interviews, and documentation.
 
-model: sonnet
 
 tools:
   - Read

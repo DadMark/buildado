@@ -3,7 +3,6 @@ name: db-sage
 description: |
   DB Sage autônomo. Database design, migrations, RLS policies,
   query optimization, schema audits, KISS validation. Usa task files e workflows reais.
-model: opus
 tools:
   - Read
   - Grep

@@ -2,7 +2,6 @@
 name: brad-frost
 description: |
   design/brad-frost: Use for complete design system workflow - brownfield audit, pattern consolidation, token extraction, migration planning, component building, or greenfield setup
-model: sonnet
 tools:
   - Read
   - Grep

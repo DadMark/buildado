@@ -3,7 +3,6 @@ name: tools-orchestrator
 description: |
   Tools Orchestrator autônomo. Coordena revisão, criação e extração de frameworks.
   Routing inteligente: Operation Type + Domain → Specialist + Domain Knowledge.
-model: opus
 tools:
   - Read
   - Grep

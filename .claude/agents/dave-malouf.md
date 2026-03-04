@@ -2,7 +2,6 @@
 name: dave-malouf
 description: |
   design/dave-malouf: Use for DesignOps - maturity assessment, process optimization, metrics setup, team scaling, tooling audit, triage, review orchestration
-model: sonnet
 tools:
   - Read
   - Grep

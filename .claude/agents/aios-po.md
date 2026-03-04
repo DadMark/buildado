@@ -3,7 +3,6 @@ name: aios-po
 description: |
   AIOS Product Owner autônomo. Valida stories, gerencia backlog,
   garante coerência de epic context. Usa task files reais do AIOS.
-model: opus
 tools:
   - Read
   - Grep

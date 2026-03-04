@@ -2,7 +2,6 @@
 name: dan-mall
 description: |
   design/dan-mall: Use for design system adoption - stakeholder buy-in, ROI calculation, shock reports, adoption narrative, documentation
-model: sonnet
 tools:
   - Read
   - Grep

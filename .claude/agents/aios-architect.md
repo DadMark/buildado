@@ -3,7 +3,6 @@ name: aios-architect
 description: |
   AIOS Architect autônomo. Análise de impacto, design de arquitetura,
   validação de PRD, research. Usa task files reais do AIOS.
-model: opus
 tools:
   - Read
   - Grep

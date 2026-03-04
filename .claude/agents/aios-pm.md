@@ -3,7 +3,6 @@ name: aios-pm
 description: |
   AIOS Project Manager autônomo. Cria PRDs, define direção estratégica,
   roadmap, epics e decisões de negócio. Usa task files reais do AIOS.
-model: opus
 tools:
   - Read
   - Grep

@@ -3,7 +3,6 @@ name: aios-sm
 description: |
   AIOS Scrum Master autônomo. Cria e expande stories usando task files
   reais e templates do AIOS. Nunca implementa código.
-model: sonnet
 tools:
   - Read
   - Grep
