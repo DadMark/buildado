@@ -1,0 +1,105 @@
+workflow:
+  id: brand-complete-workflow
+  name: Complete Brand Development - 8 Phases
+  description: Full orchestrated brand development from intake to coherence
+  
+  orchestrator: marty-neumeier
+  
+  phases:
+    - phase_number: 1
+      name: Intake & ZAG Analysis
+      lead: marty-neumeier
+      task: new-brand
+      framework: ZAG Differentiation
+      duration: 2-3 days
+      input: Client brief
+      output: Brand Brief + ZAG Position
+      approval_required: false
+    
+    - phase_number: 2
+      name: Brand Equity Strategy
+      lead: david-aaker
+      task: brand-briefing
+      framework: Brand Equity Model
+      duration: 3-4 days
+      input: Brand Brief + ZAG
+      output: Strategic Direction + Equity Framework
+      approval_required: true
+      approver: marty-neumeier
+    
+    - phase_number: 3
+      name: Consumer Insights Research
+      lead: malcolm-gladwell
+      task: audience-research
+      framework: Tipping Point + Blink
+      duration: 4-5 days
+      input: Strategic Direction
+      output: Consumer Insights + Archetypes
+      approval_required: false
+    
+    - phase_number: 4
+      name: Purpose & WHY Definition
+      lead: simon-sinek
+      task: find-why
+      framework: Golden Circle (WHY→HOW→WHAT)
+      duration: 3-4 days
+      input: Consumer Insights + Strategy
+      output: Brand Purpose + Manifesto
+      approval_required: true
+      approver: marty-neumeier
+    
+    - phase_number: 5
+      name: Naming Strategy
+      lead: alexandra-watkins
+      task: name-brand
+      framework: SMILE/SCRATCH Test
+      duration: 4-5 days
+      input: Purpose + Positioning
+      output: Brand Name + Naming System
+      approval_required: true
+      approver: marty-neumeier
+    
+    - phase_number: 6
+      name: Visual Identity System
+      lead: paula-scher
+      task: brand-identity
+      framework: Typography-First Design
+      duration: 6-8 days
+      input: Brand Name + Purpose
+      output: Logo + Palette + Typography + System
+      approval_required: true
+      approver: marty-neumeier
+    
+    - phase_number: 7
+      name: Brand Voice & Messaging
+      lead: ann-handley
+      task: brand-voice
+      framework: VOICE Framework
+      duration: 3-4 days
+      input: Purpose + Consumer Insights
+      output: Voice Guidelines + Taglines + Messages
+      approval_required: false
+    
+    - phase_number: 8
+      name: Integration & Coherence
+      lead: marty-neumeier
+      task: integrate
+      framework: Five Disciplines
+      duration: 2-3 days
+      input: All phase outputs
+      output: Coherence Score + Final Brand Report
+      approval_required: true
+      approver: marty-neumeier (self-approval)
+      final_phase: true
+
+  total_duration: 28-36 days (6-8 weeks)
+  
+  parallel_execution:
+    phases_5_6_7: "Can run in parallel with coordination"
+  
+  quality_gates:
+    phase_2: "Strategic coherence check"
+    phase_4: "Purpose authenticity review"
+    phase_5: "Name viability validation"
+    phase_8: "Coherence score calculation"
+

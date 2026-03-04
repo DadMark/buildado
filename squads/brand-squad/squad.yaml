@@ -1,154 +1,207 @@
-# brand-squad — Professional Branding Agency Squad
-# Task-First Architecture for Brand Development
+# brand-squad — World-Class Branding Experts Squad
+# Built on proven frameworks and methodologies from industry legends
 
 squad:
   id: brand-squad
-  name: Brand Squad
-  version: 1.0.0
+  name: Brand Squad — World-Class Edition
+  version: 2.0.0
   description: |
-    Professional branding agency squad with complete workflow from discovery 
-    through implementation. Includes 7 specialized roles working in synergy 
-    to create extraordinary brands.
+    Elite branding squad featuring 8 world-renowned experts, each bringing 
+    their signature frameworks and methodologies. Orchestrated by Marty Neumeier 
+    through an 8-phase agency workflow that produces extraordinary brands.
   
   created: 2026-03-04
   author: Craft (squad-creator)
   
-  # Core Configuration
   config:
     task_first: true
-    agent_count: 7
-    workflow_count: 3
-    task_count: 10
-    
-  # Chief/Lead
-  chief:
-    name: Isabella Rossi
-    role: Brand Strategist Sênior
-    agent_id: brand-chief
-    description: Lidera o squad, define estratégia, aprova direções
-    expertise:
-      - Brand Strategy
-      - Leadership
-      - Client Management
+    agent_count: 8
+    phase_count: 8
+    task_count: 8
+    tier_structure: true
   
-  # Team Members
-  team:
-    - id: brand-strategist
-      name: Marcus Chen
-      role: Brand Strategist
-      specialization: Pesquisa, Posicionamento, Estratégia
+  # Chief/Lead — Tier 0
+  chief:
+    tier: 0
+    name: Marty Neumeier
+    agent_id: marty-neumeier
+    role: Brand Chief & Orchestrator
+    frameworks:
+      - ZAG - Differentiation Strategy
+      - Onliness - Brand Essence
+      - Five Disciplines - Brand Design
+    description: |
+      World-renowned brand strategist and author. Leads the entire workflow,
+      orchestrates phases, ensures coherence. Creates the final "Coherence Score"
+      and integrated brand report.
+    authority: Final approval, workflow orchestration
+  
+  # Tier 1 — Account Director
+  account_director:
+    tier: 1
+    name: David Aaker
+    agent_id: david-aaker
+    role: Account Director
+    frameworks:
+      - Brand Equity Model
+      - Brand Architecture
+      - Leverage-Based Brand Strategy
+    description: |
+      Legendary brand strategist. Manages client relationship, translates briefs
+      into strategic frameworks. Works with Marty to ensure strategic coherence.
+  
+  # Tier 2 — Specialists
+  specialists:
+    - tier: 2
+      name: Simon Sinek
+      agent_id: simon-sinek
+      role: Purpose Strategist
+      specialization: WHY, Purpose, Manifesto
+      frameworks:
+        - Golden Circle (WHY→HOW→WHAT)
+        - Start with Why
+        - Leaders Eat Last
       responsibilities:
-        - Coleta e análise de briefing
-        - Análise competitiva
-        - Recomendações estratégicas
+        - Define brand purpose and WHY
+        - Create manifesto
+        - Ensure authenticity
     
-    - id: creative-director
-      name: Sofia Moreno
-      role: Creative Director
-      specialization: Ideação, Criatividade, Conceitos
+    - tier: 2
+      name: Alexandra Watkins
+      agent_id: alexandra-watkins
+      role: Naming Expert
+      specialization: Naming, Wordplay, Linguistic Strategy
+      frameworks:
+        - SMILE Test (Short, Meaningful, Imagery-friendly, Likeable, Easy to spell/pronounce)
+        - SCRATCH Test
+        - Naming Architecture
       responsibilities:
-        - Geração de conceitos criativos
-        - Mood boards e inspiração
-        - Direção criativa
+        - Generate and test names
+        - Create verbal identity
+        - Naming guidelines
     
-    - id: visual-designer
-      name: Ahmed Hassan
-      role: Visual Designer
-      specialization: Design Gráfico, Identidade Visual, Design Systems
+    - tier: 2
+      name: Paula Scher
+      agent_id: paula-scher
+      role: Visual Identity Architect
+      specialization: Graphic Design, Typography, Visual Systems
+      frameworks:
+        - Typography-First Design
+        - Brand Identity System
+        - Visual Hierarchy
       responsibilities:
-        - Design de logo
-        - Desenvolvimento de paleta de cores
-        - Seleção de tipografia
-        - Guias de estilo
+        - Logo design and variations
+        - Typography selection and pairing
+        - Color strategy and palette
+        - Design system creation
     
-    - id: copywriter
-      name: Elena Kovacs
-      role: Copywriter
-      specialization: Tone of Voice, Naming, Copy Estratégico
+    - tier: 2
+      name: Ann Handley
+      agent_id: ann-handley
+      role: Brand Voice Architect
+      specialization: Copy, Tone of Voice, Messaging Strategy
+      frameworks:
+        - VOICE Framework
+        - Neurological Writing
+        - "Everybody Writes" Principles
       responsibilities:
-        - Definição de tom e voz
-        - Naming de marca e produtos
-        - Copy e mensagens estratégicas
+        - Define tone of voice
+        - Craft taglines and claims
+        - Create messaging guidelines
+        - Brand language standards
     
-    - id: brand-manager
-      name: James Wilson
-      role: Brand Manager
-      specialization: Implementação, Documentation, Guidelines
+    - tier: 2
+      name: Malcolm Gladwell
+      agent_id: malcolm-gladwell
+      role: Consumer Insights Expert
+      specialization: Consumer Psychology, Trends, Archetypes
+      frameworks:
+        - Tipping Point - Mavens, Connectors, Salesmen
+        - Blink - Unconscious Reaction
+        - Outliers - Context and Opportunity
       responsibilities:
-        - Criação de brand guidelines
-        - Documentação de marca
-        - Operacionalização
-    
-    - id: account-manager
-      name: Priya Patel
-      role: Account Manager
-      specialization: Client Relations, Communication, Project Coordination
-      responsibilities:
-        - Coleta de briefing inicial
-        - Coordenação com cliente
-        - Apresentações e feedback
+        - Consumer research and insights
+        - Trend analysis
+        - Archetype definition
+        - Psychological positioning
 
-  # Workflows
+  # 8-Phase Workflow
+  phases:
+    - phase: 1
+      name: "Intake + ZAG Analysis"
+      lead: marty-neumeier
+      command: "*new-brand"
+      duration: "2-3 days"
+      output: "Brand Brief + ZAG Framework"
+    
+    - phase: 2
+      name: "Brand Equity Strategy"
+      lead: david-aaker
+      command: "*brand-briefing"
+      duration: "3-4 days"
+      output: "Brand Equity Model + Strategic Direction"
+    
+    - phase: 3
+      name: "Audience Research & Insights"
+      lead: malcolm-gladwell
+      command: "*audience-research"
+      duration: "4-5 days"
+      output: "Consumer Insights Report + Archetypes"
+    
+    - phase: 4
+      name: "Purpose & WHY Definition"
+      lead: simon-sinek
+      command: "*find-why"
+      duration: "3-4 days"
+      output: "Brand Purpose + Manifesto"
+    
+    - phase: 5
+      name: "Naming Strategy"
+      lead: alexandra-watkins
+      command: "*name-brand"
+      duration: "4-5 days"
+      output: "Brand Name (SMILE/SCRATCH tested) + Alternatives"
+    
+    - phase: 6
+      name: "Visual Identity System"
+      lead: paula-scher
+      command: "*brand-identity"
+      duration: "6-8 days"
+      output: "Logo, Typography, Colors, Design System"
+    
+    - phase: 7
+      name: "Brand Voice & Messaging"
+      lead: ann-handley
+      command: "*brand-voice"
+      duration: "3-4 days"
+      output: "Voice Guidelines, Taglines, Key Messages"
+    
+    - phase: 8
+      name: "Integration & Coherence"
+      lead: marty-neumeier
+      command: "*integrate"
+      duration: "2-3 days"
+      output: "Coherence Score + Final Brand Report"
+
   workflows:
-    - brand-discovery-workflow.yaml      # Phases 1-2
-    - brand-creation-workflow.yaml       # Phases 3-4
-    - brand-finalization-workflow.yaml   # Phases 5-6
+    - brand-discovery-workflow.yaml
+    - brand-creation-workflow.yaml
+    - brand-finalization-workflow.yaml
 
-  # Tasks (Task-First Architecture)
-  tasks:
-    - collect-brief.md
-    - competitive-analysis.md
-    - brand-strategy.md
-    - creative-brainstorm.md
-    - naming-workshop.md
-    - logo-design.md
-    - color-palette.md
-    - typography-selection.md
-    - brand-guidelines.md
-    - prepare-presentation.md
-
-  # Templates
-  templates:
-    - briefing-template.md
-    - strategy-template.md
-    - guidelines-template.md
-    - presentation-template.md
-
-  # Checklists
-  checklists:
-    - discovery-checklist.md
-    - strategy-approval-checklist.md
-    - design-approval-checklist.md
-    - brand-ready-checklist.md
-
-  # Tags and Categories
   tags:
     - branding
-    - design
+    - world-class
+    - frameworks
     - strategy
-    - agency
-    - brand-development
+    - design
+    - agency-workflow
   
-  categories:
-    - Design
-    - Strategy
-    - Creative Services
-  
-  difficulty: intermediate
-  team_size: 7
-  estimated_duration: "8-12 weeks per project"
-  
-  # Dependencies
-  dependencies: []
-  
-  # Distribution
-  distribution:
-    scope: local
-    status: ready
-    visibility: private
+  difficulty: advanced
+  team_size: 8
+  estimated_duration: "6-8 weeks per project"
 
-# Metadata
 metadata:
   last_updated: 2026-03-04
   compatible_aios_version: "2.1+"
   license: MIT
+  notes: "Based on proven methodologies from industry legends"

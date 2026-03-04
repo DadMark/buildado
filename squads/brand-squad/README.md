@@ -1,205 +1,166 @@
-# 🏗️ Brand Squad
+# 🏗️ Brand Squad — World-Class Edition
 
-Professional branding agency squad with complete workflow from discovery through implementation.
+Elite branding squad featuring 8 world-renowned experts with proven frameworks.
 
-## Overview
+## 👥 The Dream Team
 
-**Brand Squad** is a specialized AIOS squad that replicates the structure and processes of a professional branding agency. It brings together 7 distinct specialists working in synergy to create extraordinary brands.
+### Tier 0 — Chief Orchestrator
 
-### Team Composition
+**Marty Neumeier** (@marty-neumeier)
+- **Role:** Brand Chief & Orchestrator
+- **Frameworks:** ZAG, Onliness, Five Disciplines
+- **Authority:** Final approval, workflow orchestration
+- **Responsibility:** Lead intake, orchestrate entire workflow, integrate all elements, create coherence score
 
-- **Isabella Rossi** (Chief) — Brand Strategist Sênior, 15+ years experience
-- **Marcus Chen** — Brand Strategist (Research & Strategy)
-- **Sofia Moreno** — Creative Director (Concepts & Ideation)
-- **Ahmed Hassan** — Visual Designer (Identity & Design)
-- **Elena Kovacs** — Copywriter (Tone & Voice, Naming)
-- **James Wilson** — Brand Manager (Guidelines & Implementation)
-- **Priya Patel** — Account Manager (Client Relations)
+### Tier 1 — Account Director
 
-## Workflow
+**David Aaker** (@david-aaker)
+- **Role:** Account Director & Strategist
+- **Frameworks:** Brand Equity Model, Brand Architecture, Strategy Leverage
+- **Responsibility:** Client relationship, strategic translation, brand equity framework
 
-### Phase 1: Briefing & Discovery
-**Responsible:** Account Manager (Priya) + Brand Strategist (Marcus)
+### Tier 2 — Specialist Experts
 
-- Initial client conversations and brief collection
-- Market and competitive analysis
-- Stakeholder interviews
-- **Output:** Briefing Document + Competitive Analysis Report
+**Simon Sinek** (@simon-sinek) — Purpose Strategist
+- **Framework:** Golden Circle (WHY→HOW→WHAT)
+- **Specialty:** Purpose, authenticity, manifesto
+- **Phase 4 Lead:** Find the WHY
 
-### Phase 2: Strategy
-**Responsible:** Brand Strategist (Marcus) + Chief (Isabella)
+**Alexandra Watkins** (@alexandra-watkins) — Naming Expert
+- **Framework:** SMILE Test, SCRATCH Test
+- **Specialty:** Naming strategy, linguistic identity
+- **Phase 5 Lead:** Name the brand
 
-- Brand positioning development
-- Target audience definition
-- Unique value proposition
-- Strategic recommendations
-- **Output:** Brand Strategy Document (approval by Chief)
+**Paula Scher** (@paula-scher) — Visual Identity Architect
+- **Framework:** Typography-First Design, Identity Systems
+- **Specialty:** Logo, typography, color, design systems
+- **Phase 6 Lead:** Create visual identity
 
-### Phase 3: Creativity
-**Responsible:** Creative Director (Sofia) + Copywriter (Elena)
+**Ann Handley** (@ann-handley) — Brand Voice Architect
+- **Framework:** VOICE Framework, Neurological Writing
+- **Specialty:** Tone of voice, messaging, copy
+- **Phase 7 Lead:** Define brand voice
 
-- Creative brainstorming sessions
-- Concept development
-- Mood boards and visual directions
-- Tone of voice and naming workshops
-- **Output:** Creative Concepts + Naming Recommendations
+**Malcolm Gladwell** (@malcolm-gladwell) — Consumer Insights Expert
+- **Framework:** Tipping Point, Blink, Outliers
+- **Specialty:** Consumer psychology, trends, archetypes
+- **Phase 3 Lead:** Research and insights
 
-### Phase 4: Design & Execution
-**Responsible:** Visual Designer (Ahmed) + Copywriter (Elena)
+## 🔄 8-Phase Agency Workflow
 
-- Logo design and variations
-- Color palette development
-- Typography selection
-- Asset creation
-- Final copy and messages
-- **Output:** Logo, Paleta, Tipografia, Assets Digitais
+```
+Cliente → Marty
+          *new-brand                    (Phase 1: Intake + ZAG)
+            ↓
+          David
+          *brand-briefing               (Phase 2: Brand Equity)
+            ↓
+          Malcolm
+          *audience-research            (Phase 3: Consumer Insights)
+            ↓
+          Simon
+          *find-why                     (Phase 4: Purpose + Manifesto)
+            ↓
+    ┌─────────────────────────┐
+    Alexandra *name-brand     (Phase 5: Naming)
+    Paula *brand-identity     (Phase 6: Visual Identity)
+    Ann *brand-voice          (Phase 7: Voice + Messaging)
+    └─────────────────────────┘
+            ↓
+          Marty
+          *integrate                    (Phase 8: Coherence + Report)
+```
 
-### Phase 5: Implementation & Guidelines
-**Responsible:** Brand Manager (James) + Account Manager (Priya)
+### Phase Breakdown
 
-- Brand guidelines documentation
-- Implementation manual
-- Templates and examples
-- Presentation preparation
-- **Output:** Documentação Completa + Arquivos de Entrega
+| Phase | Lead | Task | Duration | Framework |
+|-------|------|------|----------|-----------|
+| 1 | Marty | Intake + ZAG Analysis | 2-3 days | ZAG Differentiation |
+| 2 | David | Brand Equity Strategy | 3-4 days | Brand Equity Model |
+| 3 | Malcolm | Audience Research | 4-5 days | Tipping Point + Blink |
+| 4 | Simon | Purpose & WHY | 3-4 days | Golden Circle |
+| 5 | Alexandra | Naming Strategy | 4-5 days | SMILE/SCRATCH Test |
+| 6 | Paula | Visual Identity | 6-8 days | Typography-First |
+| 7 | Ann | Brand Voice | 3-4 days | VOICE Framework |
+| 8 | Marty | Integration & Coherence | 2-3 days | Five Disciplines |
 
-### Phase 6: Delivery & Handoff
-**Responsible:** Chief (Isabella) + Account Manager (Priya)
+## 🎯 Starting a Brand Project
 
-- Final presentation to client
-- Guidelines walkthrough
-- File handoff and training
-- Post-launch support coordination
-- **Output:** Marca Pronta para Implementação
+```bash
+# Marty takes the brief and starts the workflow
+@marty-neumeier *new-brand
 
-## Tasks (Task-First Architecture)
+# Marty orchestrates the entire sequence
+# Each phase feeds into the next
+# Final output: Coherence Score + Brand Report
+```
 
-| Task | Lead | Phase | Duration |
-|------|------|-------|----------|
-| Collect Brief | Priya | 1 | 2-3 days |
-| Competitive Analysis | Marcus | 1 | 3-5 days |
-| Brand Strategy | Marcus + Isabella | 2 | 5-7 days |
-| Creative Brainstorm | Sofia | 3 | 3-4 days |
-| Naming Workshop | Elena | 3 | 2-3 days |
-| Logo Design | Ahmed | 4 | 5-7 days |
-| Color Palette | Ahmed | 4 | 2-3 days |
-| Typography Selection | Ahmed | 4 | 2-3 days |
-| Brand Guidelines | James | 5 | 3-5 days |
-| Prepare Presentation | Priya | 5-6 | 2-3 days |
+## 📊 Frameworks Used
 
-## File Structure
+- **ZAG** — Differentiation and finding your unique position
+- **Onliness** — Your singular combination of talents and passions
+- **Five Disciplines** — Brand architecture and design
+- **Brand Equity Model** — Building brand value systematically
+- **Golden Circle** — WHY→HOW→WHAT framework
+- **SMILE/SCRATCH Test** — Name evaluation criteria
+- **Typography-First Design** — Identity system foundation
+- **VOICE Framework** — Tone and messaging structure
+- **Tipping Point** — Understanding trends and influencers
+- **Blink** — Unconscious reaction and intuition
+
+## 📁 Structure
 
 ```
 squads/brand-squad/
-├── squad.yaml                          # This manifest
-├── README.md                           # This file
-├── config/
-│   ├── agents-list.md                  # Team details
-│   ├── workflow-overview.md            # Process documentation
-│   └── tools-stack.md                  # Required tools
-├── agents/
-│   ├── brand-chief.yaml
-│   ├── brand-strategist.yaml
-│   ├── creative-director.yaml
-│   ├── visual-designer.yaml
-│   ├── copywriter.yaml
-│   ├── brand-manager.yaml
-│   └── account-manager.yaml
-├── tasks/
-│   ├── collect-brief.md
-│   ├── competitive-analysis.md
-│   ├── brand-strategy.md
-│   ├── creative-brainstorm.md
-│   ├── naming-workshop.md
-│   ├── logo-design.md
-│   ├── color-palette.md
-│   ├── typography-selection.md
-│   ├── brand-guidelines.md
-│   └── prepare-presentation.md
-├── workflows/
-│   ├── brand-discovery-workflow.yaml
-│   ├── brand-creation-workflow.yaml
-│   └── brand-finalization-workflow.yaml
-├── templates/
-│   ├── briefing-template.md
-│   ├── strategy-template.md
-│   ├── guidelines-template.md
-│   └── presentation-template.md
-├── checklists/
-│   ├── discovery-checklist.md
-│   ├── strategy-approval-checklist.md
-│   ├── design-approval-checklist.md
-│   └── brand-ready-checklist.md
-└── data/
-    └── brand-elements-schema.json
+├── squad.yaml                    # Manifest
+├── README.md                     # This file
+├── agents/                       # 8 specialist profiles
+├── tasks/                        # Phase-specific tasks
+├── workflows/                    # 8-phase workflow
+├── templates/                    # Deliverable templates
+├── checklists/                   # Phase checklists
+└── data/                         # Schemas and data
 ```
 
-## How to Use
+## 💼 Team Credentials
 
-### Starting a Brand Project
+Each expert brings:
+- **Published frameworks** proven in thousands of brands
+- **Real-world experience** with Fortune 500 companies
+- **Thought leadership** recognized globally
+- **Unique methodologies** not replicable elsewhere
 
-```bash
-# 1. Use Account Manager to collect brief
-@account-manager *collect-brief
+## 🚀 Expected Outcomes
 
-# 2. Brand Strategist conducts analysis
-@brand-strategist *competitive-analysis
+- **Differentiated brand** with clear ZAG
+- **Articulated purpose** and manifesto
+- **Tested name** meeting SMILE criteria
+- **Complete visual identity** system
+- **Consistent voice** across all touchpoints
+- **Coherence score** validating integration
+- **Final brand report** ready for implementation
 
-# 3. Chief and Strategist develop strategy
-@brand-chief *approve-strategy
+## 📈 Quality Metrics
 
-# 4-6. Continue through remaining phases...
-```
+- Coherence Score: Integration of all elements
+- Name Viability: SMILE/SCRATCH test results
+- Message Consistency: Tone and voice adherence
+- Visual System Completeness: All assets delivered
+- Strategic Alignment: Framework application
 
-### Required Input (Briefing)
+## 🎓 Learning Experience
 
-To start any brand project, ensure you have:
-
-- Client company background and history
-- Product/service overview
-- Target audience definition
-- Competitive landscape
-- Brand objectives and goals
-- Timeline and budget
-- Preferred style/inspiration
-
-### Deliverables
-
-Each phase produces specific deliverables:
-
-1. **Discovery Phase:** Briefing + Competitive Analysis
-2. **Strategy Phase:** Brand Strategy Document
-3. **Creative Phase:** Concepts + Naming
-4. **Design Phase:** Logo, Colors, Typography
-5. **Implementation Phase:** Brand Guidelines
-6. **Delivery:** Complete Brand Identity Kit
-
-## Integration with AIOS
-
-This squad integrates with:
-
-- **@dev** — For implementing brand guidelines into code
-- **@qa** — For validating brand consistency
-- **@devops** — For publishing brand assets
-
-## Specifications
-
-- **Team Size:** 7 specialists
-- **Difficulty:** Intermediate
-- **Estimated Duration:** 8-12 weeks per project
-- **AIOS Version:** 2.1+
-- **License:** MIT
-
-## Notes
-
-- All tasks follow the task-first AIOS architecture
-- Chief (Isabella) has final approval authority
-- Account Manager coordinates all client communication
-- Workflows are sequential but can have parallel tasks
-- All deliverables are documented and templated
+Working with this squad is also a **masterclass** in:
+- Brand strategy thinking
+- Design methodology
+- Consumer psychology
+- Strategic naming
+- Messaging architecture
+- Visual systems thinking
 
 ---
 
+**Version:** 2.0.0  
 **Created:** March 4, 2026  
-**Version:** 1.0.0  
-**Status:** Ready for Use
+**Status:** Ready for Elite Brand Projects  
+**Philosophy:** "Great brands aren't designed, they're orchestrated"
